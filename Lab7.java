@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.lab_work;
-
-/**
- *
- * @author Roudra27
- */
-public class Lab7 {
-    
-}
+public class Lab7
+{ 
+    public static void main(String[] args)  
+    { 
+        int i; 
+//Q-7:Print odd-even numbers from 1 to 10 using a for loop.         
+        for(i=1; i<=10; i++) 
+        { 
+            if(i%2==0) 
+            { 
+                System.out.println("The Output is 'Even': " +i); 
+            } 
+            else if(i%2!=0) 
+            { 
+                System.out.println("The Output is 'Odd': " +i); 
+            } 
+            else 
+            { 
+                System.out.println("INVALID INPUT." +i); 
+            }        
+       } 
+    } 
+} 
